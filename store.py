@@ -10,8 +10,9 @@ def calculate_total(
     """Calculate the final total a customer pays for their cart."""
     total = subtotal
 
-    # TODO: if apply_tax:
-    total = total * 1.08
+    # TODO: 
+    if apply_tax:
+       total = total * 1.08
     return total
 
 
